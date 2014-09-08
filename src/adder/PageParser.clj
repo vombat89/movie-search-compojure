@@ -47,6 +47,8 @@
   (vec (flatten (map #(re-find #"http.*jpg" %) (map :style (map :attrs (image+search url)))))))
 
 
+; RATINGS SECTION and Download Section is not used, dont bother looking into that
+
 ;RATINGS SECTION
 (def special-char "/")
 
